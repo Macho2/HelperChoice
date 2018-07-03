@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon.png">
+    <title>HelperChoice - Connecting domestic helpers,employers and agencies</title>
+   
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="https://www.helperchoice.com/" class="navbar-brand">
+                        <img src="img/logo-full-black.png" alt="HelperChoice" width="189" height="48">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <button type="button" class="btn btn-primary btn-frame"><i class="fa fa-thumbs-up"></i> Like 518K</button>
+                        </li>
+                        <li><a href="https://www.helperchoice.com/about">About</a></li>
+                        <li><a href="https://www.helperchoice.com/press">Press</a></li>
+                        <li><button name="button" type="button" class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#myModal" id="signup">Sign Up</button></li>
+                        <li><a href="https://www.helperchoice.com/users/sign-in">Log In</a></li>  
+                    </ul>
+                </div>
+            </div>          
+        </nav>   
+    </header>
+    <div class="showcase-page">
+        <div class="main-section">
+            <div class="carousel slide carousel-fade carousel-background carousel-xs-hidden" data-ride="carousel" id="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+            <div class="carousel slide carousel-fade carousel-background carousel-xs-visible" data-ride="carousel" id="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+            <div class="main-section-title">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <h1 class="h1">
+                                <span>FIND THE RIGHT HELPER</span>
+                            </h1>
+                            <h2 id="h2">
+                                <span class="text-xs-smaller">for your home and family</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-section-search">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+                            <div class="input-group input-group-lg">
+                                <select name="location" id="location" class="form-control">
+                                    <option value="location" disabled selected>Select location</option>
+                                    <option value="HongKong">Hong Kong</option>
+                                    <option value="Macau">Macau</option>
+                                    <option value="Singapore">Singapore</option>
+                                    <option value="Philippines">Philippines</option>
+                                    <option value="U.A.E.">U.A.E.</option>
+                                    <option value="SaudiArabia">SaudiArabia</option>
+                                    <option value="Qatar">Qatar</option>
+                                    <option value="Kuwait">Kuwait</option>
+                                </select>
+                                <span class="input-group-btn">
+                                   <button class="btn btn-primary" id="searchBtn">
+                                       <div class="hidden-xs">Search Helpers</div>
+                                       <div class="hidden-sm">
+                                           <i class="fa fa-search"></i>
+                                       </div>
+                                   </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-section content-section-main">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-xs-12">
+                        <ul class="list-inline list-images">
+                            <li><a href="https://www.helperchoice.com/press"><img src="img/brand/1.png" alt=""></a></li>
+                            <li class="hidden-xs"><a href="https://www.helperchoice.com/press"><img height="40" src="img/brand/2.png" alt=""></a></li>
+                            <li class="hidden-xs"><a href="https://www.helperchoice.com/press"><img height="40"src="img/brand/3.png" alt=""></a></li>
+                            <li><a href="https://www.helperchoice.com/press"><img height="40" src="img/brand/4.png" alt=""></a></li>
+                            <li class="hidden-xs"><a href="https://www.helperchoice.com/press"><img height="40" src="img/brand/5.png" alt=""></a></li>
+                            <li class="hidden-xs"><a href="https://www.helperchoice.com/press"><img height="40" src="img/brand/6.png" alt=""></a></li>
+                            <li><a href="https://www.helperchoice.com/press"><img height="40" src="img/brand/7.png" alt=""></a></li>
+                            <li class="hidden-xs"><a href="https://www.helperchoice.com/press"><img height="40" src="img/brand/8.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-section content-section-primary">
+            <div class="container">
+                <div class="row text-center lead">
+                    <div class="col-sm-6">
+                        <p>
+                            <span class="text-huge text-bold">100,000+</span>
+                            <br>
+                            <span class="text-small text-bold">Helpers</span>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p>
+                            <span class="text-huge text-bold">30,000+</span>
+                            <br>
+                            <span class="text-small text-bold">Families</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-section content-section-main text-center">
+            <div class="container">
+               
+                <div class="row">
+                    <div class="col-xs-12 col-md-10 col-md-offset-1">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h4>Discover</h4>
+                                <img src="img/discover.png" alt="">
+                                <p>Browse through helper profiles</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <h4>Interview</h4>
+                                <img src="img/interview.png" alt="">
+                                <p>Interview your shortlisted candidates</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <h4>Hire</h4>
+                                <img src="img/hire.png" alt="" width="50" height="50">
+                                <p>Hire and process the work visa</p>
+                            </div>
+                        </div>                      
+                    </div>                  
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="content-section content-section-main">
+            <div class="container">
+                <br>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="text-center">
+                            <img src="img/headImage/1.jpg" alt="" class="img-circle" width="80" height="80">
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <blockquote>
+                            <p class="quoted">
+                                Janet is an outstanding helper. She was diligent, cheerful and independent. She cooks well and is eager to learn to make new dishes. She is extremely reliable. We left her in the house many times while we went on extended trips and always came back to an immaculate house and a warm welcome.
+                            </p>
+                            <p class="quoteName">— Alan T., Hong Kong</p>
+                        </blockquote>
+                       
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="text-center">
+                            <img src="img/headImage/2.jpg" alt="" class="img-circle" width="80" height="80">
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <blockquote>
+                            <p class="quoted">
+                                Vrengky was a wonderful addition to our family for the 2 years that we were in Singapore. She was great with our 3 boys ages 4, 5 and 7. Our youngest son has multiple food allergies and she was able to successfully manage them at all times. We really miss her and hope she is able to find a nice and wonderful family to be with.
+                            </p>
+                            <p class="quoteName">— Jennifer N., Singapore</p>
+                        </blockquote>
+                       
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="text-center">
+                            <img src="img/headImage/3.jpg" alt="" class="img-circle" width="80" height="80">
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <blockquote>
+                            <p class="quoted">
+                                Bel was very helpful to us. Nice person helping her family back in Phillppines. Popular among kids. She helped raise our younger child from 1 to 5 yrs old. I can highly recommend her.
+                            </p>
+                            <p class="quoteName">— Ben S., Hong Kong</p>
+                        </blockquote>
+                       
+                    </div>
+                </div>
+                
+            </div>
+            <hr>
+        </div>
+        <div class="content-section content-setction-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="col-sm-6 col-sm-push-6">
+                            <h2 class="content-section-title text-center-xs">
+                               <strong>Good for employers, good for helpers</strong>
+                            </h2>
+                            <p class="hidden-xs">
+                                HelperChoice is a social platform that does not charge helpers, empowering them to find a suitable employer and job for free. With HelperChoice verified profiles, it is also the best way for employers to find the right match for their household.
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-sm-pull-6">
+                            <img src="img/happy-helper/1.jpg" alt="" class="img-circle img-responsive center-block">
+                        </div>
+                    </div>                  
+                </div>               
+            </div>
+            <hr>
+        </div>
+        <div class="content-section content-setction-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="col-sm-6">
+                            <h2 class="content-section-title text-center-xs">
+                                <strong>Be in control of finding the right helper</strong>
+                            </h2>
+                            <p class="hidden-xs">
+                                Search the database using specific criteria. Shortlist the helpers that fit your needs. Message them directly or request their phone numbers. Set up interviews and hire the best candidate.
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/happy-helper/2.jpg" alt="" class="img-circle img-responsive center-block">
+                        </div>
+                    </div>                  
+                </div>               
+            </div>
+            <hr>
+        </div>
+        <div class="content-section content-setction-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="col-sm-6 col-sm-push-6">
+                            <h2 class="content-section-title text-center-xs">
+                                <strong>An extensive database of verified profiles</strong>
+                            </h2>
+                            <p class="hidden-xs">
+                                Every helper is different. Every employer is different. At any time, there are over 3,000 domestic helpers actively looking for a position. Find your match today.
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-sm-pull-6">
+                            <img src="img/happy-helper/3.jpg" alt="" class="img-circle img-responsive center-block">
+                        </div>
+                    </div>                  
+                </div>               
+            </div>
+            <hr>
+        </div>
+        <div class="content-section content-section-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="content-section-title text-center">
+                            <strong>Discover great helpers today</strong> 
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 space-4">
+                        <div class="image-card" style="background-image: url(img/city/HongKong.jpg)">
+                            <a href="https://www.helperchoice.com/hong-kong/domestic-helpers">
+                                <div class="image-card-title">Hong Kong</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 space-4">
+                        <div class="image-card" style="background-image: url(img/city/U.A.E.jpg)">
+                            <a href="https://www.helperchoice.com/hong-kong/domestic-helpers">
+                                <div class="image-card-title">U.A.E.</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 space-4">
+                        <div class="image-card" style="background-image: url(img/city/Singapore.jpg)">
+                            <a href="https://www.helperchoice.com/hong-kong/domestic-helpers">
+                                <div class="image-card-title">Singapore</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 space-4">
+                        <div class="image-card" style="background-image: url(img/city/Saudi-Arabia.jpg)">
+                            <a href="https://www.helperchoice.com/hong-kong/domestic-helpers">
+                                <div class="image-card-title">Saudi Arabia</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 space-4">
+                        <div class="image-card" style="background-image: url(img/city/Qatar.jpg)">
+                            <a href="https://www.helperchoice.com/hong-kong/domestic-helpers">
+                                <div class="image-card-title">Qatar</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row row-condensed">
+                <div class="col-xs-6 col-sm-3">
+                    <div class="clerafix space-2">
+                        <div class="select select-large select-block">
+                            <select name="" id="changeLanguage">
+                                <option value="English" selected>
+                                    English
+                                </option>
+                                <option value="zh-hans">
+                                    中文（简体）
+                                </option>
+                                <option value="zh-hant">
+                                    中文（繁体
+                                </option>
+                            </select>
+                        </div>                           
+                    </div>
+                    <span>
+                      <a href="javascript:void(0);" onclick="verifySeal()">
+                          <img src="img/footer/siteseal_gd_3_h_d_m.gif" alt="">
+                      </a>
+                    </span>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <h2 class="h5">Company</h2>
+                    <ul class="list-layout">
+                        <li>
+                            <a href="https://www.helperchoice.com/about">About</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/careers">Careers</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/press">Press</a>
+                        </li>
+                        <li>
+                            <a href="https://blog.helperchoice.com/">Blog</a>
+                        </li>
+                        <li>
+                            <a href="https://support.helperchoice.com/hc/en-us">Help</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/terms">Terms & Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-3 space-top-sm-2">
+                    <h2 class="h5">Discover</h2>
+                    <ul class="list-layout">
+                        <li>
+                            <a href="https://www.helperchoice.com/domestic-helpers">Helper Profiles</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/employers">Employer Ads</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/testimonials">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/partners-helperchoice">Partners</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/supporters">Supporters</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-3  space-top-sm-2">
+                    <h2 class="h5">HelperChoice Global</h2>
+                    <ul class="list-layout">
+                        <li>
+                            <a href="https://www.helperchoice.com/hong-kong/domestic-helpers">Helpers in Hong Kong</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/dubai/domestic-helpers">Maids in Dubai</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/singapore/domestic-helpers">Maids in Singapore</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/saudi-arabia/domestic-helpers">Housemaids in Saudi Arabia</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/qatar/domestic-helpers">Housemaids in Qatar</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/kuwait/domestic-helpers">Maids in Kuwait</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/all-profiles">All Profiles</a>
+                        </li>
+                        <li>
+                            <a href="https://www.helperchoice.com/all-jobs">All Job Ads</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <h2 class="h5 space-4">Connect with us</h2>
+                <ul class="list-layout list-inline">
+                    <li>
+                        <a href="https://www.facebook.com/helperchoice" class="link-contrast footer-icon" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                            <a href="https://www.twitter.com/HelperChoice" class="link-contrast footer-icon" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Helperchoice/posts" class="link-contrast footer-icon" target="_blank">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/helperchoice/?originalSubdomain=hk" class="link-contrast footer-icon" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/user/HelperChoice" class="link-contrast footer-icon" target="_blank">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="space-top-2 text-muted">
+                    <span>&copy;</span> HelperChoice Ethical Services - Licensed Employment Agency in Hong Kong - Licence No. 55144
+                </div>
+                <div class="text-muted">
+                    <span>
+                        Compliant with Code of Practice for Employment Agencies - All rights reserved
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal for Sign Up -->
+    <div class="modal fade" id="myModal" role="dialog" aria-labelledby="signup" tabindex="-1" style="display:none">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="step-1">
+                        <a class="btn btn-social btn-facebook signup-facebook" href="https://www.helperchoice.com/users/auth/facebook">
+                            <i class="fa fa-facebook"></i>Sign up with Facebook
+                        </a>
+                        <div class="divider or">
+                            <span class="bg-text-color">or</span>
+                            <hr>
+                        </div>
+                        <button class="btn btn-primary" onclick="$('.step-1').hide();$('.step-2').show()" type="button">
+                            <i class="fa fa-envelope"></i>
+                            Sign up with Email
+                        </button>
+                        <div class="terms">
+                            By signing up using Facebook or email,I agree to HelperChoice's<a href="https://www.helperchoice.com/terms">Terms of Use</a> and<a href="https://www.helperchoice.com/terms/privacy">Privacy Policy.</a>
+                        </div>
+                        <div>
+                            <span>Already a member?</span>
+                            <a href="https://www.helperchoice.com/users/sign-in">Log in</a>
+                        </div>
+                    </div>
+                    <div class="step-2">
+                        <span>Subscribe with</span>
+                        <a class="signup-facebook" href="https://www.facebook.com/checkpoint/block/https://www.facebook.com/checkpoint/block/">Facebook</a>
+                        <div class="divider or">
+                            <span class="bg-text-color">or</span>
+                            <hr>
+                        </div>
+                        <form class="registrations-form form-horizontal" id="new_user" action="" accept-charset="UTF-8" method="post">
+                           <div class="form-group">
+                               <div class="col-sm-12">
+                                   <input type="email" id="email" class="form-control" placeholder="Email address">
+                                   <span class="form-control-feedback fa fa-at"></span>
+                               </div>
+                           </div>
+                           <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="email" id="email" class="form-control" placeholder="Password">
+                                    <span class="form-control-feedback fa fa-lock"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="email" id="email" class="form-control" placeholder="Confirm your password">
+                                    <span class="form-control-feedback fa fa-lock"></span>
+                                </div>
+                            </div>
+                            <div class="terms">
+                                By signing up using Facebook or email, I agree to HelperChoice's<a href="https://www.helperchoice.com/terms">Terms of Use</a> and<a href="https://www.helperchoice.com/terms/privacy">Privacy Policy.</a>
+                            </div>
+                            <div class="form-group signup-email">
+                                <button name="button" type="submit" class="btn btn-primary btn-xlg">
+                                    <i class="fa fa-envelope"></i>
+                                    Sign up with Email
+                                </button>
+                            </div>
+                            <div class="divider">
+                                <hr>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <span>
+                                        Already a member?
+                                    </span>
+                                    <a href="https://www.helperchoice.com/users/sign-in">Log in</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/searchBtn.js"></script>
+</body>
+</html>
